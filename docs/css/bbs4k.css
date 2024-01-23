@@ -14,17 +14,15 @@
    limitations under the License.
 */
 body {
-	  color: #000000;
-/*	background-color: #0072C6; /* ... */
-/*	background-color: #CC3300; /* ... */
-/*	background-color: #003300; /* ... */
-/*	background-color: #FFCC00; /* ... */
-/*	background-color: #f5c904; /* ... */
-	  background-color: #000000; /* ... */
-/*	background-color: transparent; /* ... */
-  	margin: 0;
-	  overflow: hidden; /* Hide scrollbars */
-	  overflow-x: hidden; overflow-y: hidden;
+	color:#000000;
+//	background-color:#0072C6;
+//	background-color:#CC3300;
+//	background-color:#003300;
+//	background-color:#FFCC00;
+	background-color:#000000;
+	margin:0;
+	overflow: hidden; /* Hide scrollbars */
+	overflow-x: hidden; overflow-y: hidden;
 }
 
 .container {  display: grid;
@@ -98,5 +96,5 @@ body {
 }
 
 a img {
-	border: none;
+	border:none;
 }

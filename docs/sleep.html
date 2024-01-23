@@ -30,20 +30,20 @@
 <link rel="stylesheet" href="css/bbs4k.css">
 <!--################################################
      시간에 따라 이미지 변경 (낮과 밤)
-    ################################################-->
-<script type="text/javascript">
-	var hour=function() {
-		var fname="";
-		var today=new Date();
+     ################################################-->
+<script type = "text/javascript">
+	var hour = function() {
+		var fname = "";
+		var today = new Date();
 		var dd = today.getDay();
-		var hh=today.getHours();
-                         var mm=today.getMinutes();
+		var hh = today.getHours();
+                         var mm = today.getMinutes();
 		if (dd >= 1 && dd < 6)
 		{
 			if (hh >= 8 && hh <= 17)
 			{	bname = "content/media/background_transparency.png";
 				bcss = "position: absolute;";
-				location.href = '4k.html';
+				location.href = './4k.html';
 			}
 			else
 			{	bname = "content/media/background_transparency.png";

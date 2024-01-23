@@ -16,20 +16,20 @@
 var hour = function() {
 	var fname = "";
 	var today = new Date();
-	var yy = today.getFullYear()-2000;
-	var mn = today.getMonth()+1;
+    var yy = today.getFullYear()-2000;
+    var mn = today.getMonth()+1;
 	var dd = today.getDay();
 	var hh = today.getHours();
 	var mm = today.getMinutes();
-	if (yy >= 25 && mn >= 7)
-	{	location.href = './js/expired.html';		}
+    if (yy >= 25 && mn >= 7)
+    {   location.href = './js/expired.html'}
 	if (dd >= 1 && dd < 6)
 	{
 		if (hh >= 8 && hh < 12)
-		{	fname = "./content/media/image_03-00.jpg";	}
+		{	fname = "content/media/image_03-00.jpg";	}
 		else
-		{	fname = "./content/media/image_04-00.jpg";	}
-		document.getElementById("time").src = fname;
+		{	fname = "content/media/image_04-00.jpg";	}
+		document.getElementById("time").src=fname;
 
 //		if (hh >= 10 && hh < 11 && mm <10)
 //		{	location.href = './breaktime-10h.html';		}
@@ -39,17 +39,17 @@ var hour = function() {
 //		{	location.href = './breaktime-15h.html';		}
 
 		if (hh >= 8 && hh <= 17 && mm < 59)
-		{	bname = "./content/media/background_transparency.png";
+		{	bname = "content/media/background_transparency.png";
 			bcss = "position: relative;";
 		}
 		else
-		{	bname = "./content/media/foreground_blacksky.png";
+		{	bname = "content/media/foreground_blacksky.png";
 			bcss = "position: absolute;";
-			location.href = './sleep.html';
+			location.href = 'sleep.html';
 		}
 		document.getElementById("blank").src = bname;
 		document.getElementById("blank").style = bcss;
 	}
 	else
-	{	location.href = './sleep.html';		}
+	{	location.href = 'sleep.html';		}
 }
