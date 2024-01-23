@@ -1,0 +1,164 @@
+<!--
+   Copyright 2023 Benjamin (BMK: Beommin Kim - 김범민)
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="refresh" content="600; url=4k-ad00.html" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="apple-touch-startup-image" href="startup.png" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link rel="shortcut icon" href="favicon.ico" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<title>CMS Browser</title>
+<link rel="stylesheet" href="css/bbs4k.css">
+<script src="js/background.js"></script>
+<script src="js/schedule.js"></script>
+</head>
+<body onload="hour()">
+<div class="container">
+<!--*************************************************************************-->
+  <div class="notice01">    <img src="content/media/image_01-00.jpg" onerror="this.onerror=null; this.src='content/media/background.png'" style="border-radius: 10px; width: 666px; height: 944px; display: inline-block; frameborder="0"">  </div>
+  <div class="notice01-01"><img src="content/media/image_01-00.png" onerror="this.onerror=null; this.src='content/media/background.png'" style="border-radius: 10px; width: 666px; height: 944px; display: inline-block; frameborder="0"">  </div>
+  <div class="notice01-02"><iframe src="swiper/swiper_autoplay_img-.html" style="border-radius: 10px; width: 666px; height: 944px; display: inline-block;" frameborder="0"></iframe>  </div>
+  <div class="notice01-03">
+    <iframe src="slide-pdf.js/index.html?slide=../content/pdf/Specification_360_Signage_Cube_(Indoor_240)_r02_20220705b.pdf"
+               scrolling="no"
+               allowtransparency="true"
+               style="border-radius: 10px; width: 666px; height: 944px; display: inline-block;"
+               frameborder="0">
+    </iframe>
+  </div>
+<!--
+  <div class="notice01-03"><iframe src="https://earth.nullschool.net/ko/#current/wind/surface/level/orthographic=129.02,26.09,1167/loc=90.054,-10.748" style="border-radius: 10px; width: 666px; height: 944px; display: inline-block;" frameborder="0"></iframe></div>
+-->
+<!--*************************************************************************-->
+  <div class="notice02">    <img src="content/media/image_02-00.jpg" onerror="this.onerror=null; this.src='content/media/background.png'" style="border-radius: 10px; width: 666px; height: 944px; display: inline-block; frameborder="0"">  </div>
+  <div class="notice02-01"><img src="content/media/image_02-00.png" onerror="this.onerror=null; this.src='content/media/background.png'" style="border-radius: 10px; width: 666px; height: 944px; display: inline-block; frameborder="0"">  </div>
+  <div class="notice02-02"><iframe src="swiper/swiper_autoplay_img-.html" style="border-radius: 10px; width: 666px; height: 944px; display: inline-block;" frameborder="0"></iframe>  </div>
+  <div class="notice02-03">
+    <embed src="content/pdf/User_Manual_Smart_Mirror_32_-_Healthcare_kr_v001_20220112a.pdf#page=15&view=fitW100&scrollbar=0&toolbar=0"
+               type="application/pdf"
+               allowtransparency="true"
+               style="border-radius: 10px; width: 666px; height: 944px; display: inline-block; overflow: hidden;"
+               frameborder="0" />
+  </div>
+<!--
+  <div class="notice02-03">
+    <iframe src="slide-pdf.js/index.html?slide=../content/pdf/Specification_Smart_Mirror_32_-_Healthcare_r03_20230111a.pdf"
+               scrolling="no"
+               allowtransparency="true"
+               style="border-radius: 10px; width: 666px; height: 944px; display: inline-block;"
+               frameborder="0">
+    </iframe>
+  </div>
+-->
+<!--*************************************************************************-->
+  <div class="notice03">    <img src="content/media/image_03-00.jpg" onerror="this.onerror=null; this.src='content/media/background.png'" style="border-radius: 10px; width: 666px; height: 944px; display: inline-block; frameborder="0"">  </div>
+  <div class="notice03-01"><img src="content/media/image_03-01.png" onerror="this.onerror=null; this.src='content/media/background.png'" style="border-radius: 10px; width: 666px; height: 944px; display: inline-block; frameborder="0"">  </div>
+  <div class="notice03-02"><img id="time" src="" onerror="this.onerror=null; this.src='content/media/background.png'" style="border-radius: 10px; width: 666px; height: 944px; display: inline-block; frameborder="0"">  </div>
+<!--
+  <div class="notice03-03"><video width="100%" height="100%" src="content/media/video_01.mp4" autoplay loop preload="none"></video></div>
+-->
+<!--*************************************************************************-->
+  <div class="notice04">    <img src="content/media/image_04-00.jpg" onerror="this.onerror=null; this.src='content/media/background.png'" style="border-radius: 10px; width: 666px; height: 944px; display: inline-block; frameborder="0"">  </div>
+  <div class="notice04-01"><img src="content/media/image_04-01.png" onerror="this.onerror=null; this.src='content/media/background.png'" style="border-radius: 10px; width: 666px; height: 944px; display: inline-block; frameborder="0"">  </div>
+  <div class="notice04-02"></div>
+  <div class="notice04-03"><iframe src="swiper/swiper_autoplay_img.html" style="border-radius: 10px; width: 666px; height: 944px; display: inline-block;" frameborder="0"></iframe></div>
+<!--*************************************************************************-->
+  <div class="notice05">    <img src="content/media/image_05-00.jpg" onerror="this.onerror=null; this.src='content/media/background.png'" style="border-radius: 10px; width: 666px; height: 944px; display: inline-block; frameborder="0"">  </div>
+  <div class="notice05-01"><img src="content/media/image_05-01.png" onerror="this.onerror=null; this.src='content/media/background.png'" style="border-radius: 10px; width: 666px; height: 944px; display: inline-block; frameborder="0"">  </div>
+  <div class="notice05-02"><img src="https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg" onerror="this.onerror=null; this.src='content/media/background.png'" style="border-radius: 10px; width: 666px; height: 944px; display: inline-block; frameborder="0""></div>
+  <div class="notice05-03">
+    <div>
+      <br><br>
+      <iframe src="widgets/clock_center_zoom.html"
+               style="border-radius: 10px; width: 666px; height: 472px; display: inline-block;
+                        text-align: center;
+                        display: table; margin-left: auto; margin-right: auto;"
+               frameborder="0">
+      </iframe>
+    </div>
+    <div>
+      <br><br><br><br><br><br><br><br><br><br><br>
+      <iframe src="widgets/weather-forcast-7days.html"
+               style="border-radius: 10px; width: 666px; height: 472px; display: inline-block;
+                        text-align: center;
+                        display: table; margin-left: auto; margin-right: auto;"
+               frameborder="0">
+      </iframe>
+    </div>
+  </div>
+<!--*************************************************************************-->
+  <div class="notice06">    <img src="content/media/image_06-00.jpg" onerror="this.onerror=null; this.src='content/media/background.png'" style="border-radius: 10px; width: 666px; height: 944px; display: inline-block; frameborder="0"">  </div>
+  <div class="notice06-01"><img src="content/media/image_06-01.png" onerror="this.onerror=null; this.src='content/media/background.png'" style="border-radius: 10px; width: 666px; height: 944px; display: inline-block; frameborder="0"">  </div>
+  <div class="notice06-02"></div>
+  <div class="notice06-03"></div>
+<!--*************************************************************************-->
+  <div class="notice07">    <img src="content/media/image_07-00.jpg" onerror="this.onerror=null; this.src='content/media/background.png'" style="border-radius: 10px; width: 666px; height: 944px; display: inline-block; frameborder="0"">  </div>
+  <div class="notice07-01"><img src="content/media/image_07-01.png" onerror="this.onerror=null; this.src='content/media/background.png'" style="border-radius: 10px; width: 666px; height: 944px; display: inline-block; frameborder="0"">  </div>
+  <div class="notice07-02"></div>
+  <div class="notice07-03"></div>
+<!--*************************************************************************-->
+  <div class="notice08">    <img src="content/media/image_08-00.jpg" onerror="this.onerror=null; this.src='content/media/background.png'" style="border-radius: 10px; width: 666px; height: 944px; display: inline-block; frameborder="0"">  </div>
+  <div class="notice08-01"><img src="https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg" onerror="this.onerror=null; this.src='content/media/background.png'" style="border-radius: 10px; width: 666px; height: 944px; display: inline-block; frameborder="0""></div>
+  <div class="notice08-02"></div>
+  <div class="notice08-03">
+    <iframe src="slide-pdf.js/index.html?slide=../content/pdf/2301_아바비젼_Smart Mirror 32_Healthcare.pdf"
+               scrolling="no"
+               allowtransparency="true"
+               style="border-radius: 10px; width: 666px; height: 944px; display: inline-block;"
+               frameborder="0">
+    </iframe>
+  </div>
+<!--*************************************************************************-->
+  <div class="notice09">    <img src="content/media/image_09-00.jpg" onerror="this.onerror=null; this.src='content/media/background.png'" style="border-radius: 10px; width: 666px; height: 944px; display: inline-block; frameborder="0"">  </div>
+  <div class="notice09-01"><img src="content/media/image_09-01.png" onerror="this.onerror=null; this.src='content/media/background.png'" style="border-radius: 10px; width: 666px; height: 944px; display: inline-block; frameborder="0"">  </div>
+  <div class="notice09-02"></div>
+  <div class="notice09-03"><iframe src="swiper/swiper_autoplay_img.html" style="border-radius: 10px; width: 666px; height: 944px; display: inline-block;" frameborder="0"></iframe></div>
+<!--*************************************************************************-->
+  <div class="notice10">    <img src="content/media/image_10-00.jpg" onerror="this.onerror=null; this.src='content/media/background.png'" style="border-radius: 10px; width: 666px; height: 944px; display: inline-block; frameborder="0"">  </div>
+  <div class="notice10-01"><img src="content/media/image_10-01.png" onerror="this.onerror=null; this.src='content/media/background.png'" style="border-radius: 10px; width: 666px; height: 944px; display: inline-block; frameborder="0"">  </div>
+  <div class="notice10-02"></div>
+  <div class="notice10-03"><iframe src="swiper/swiper_autoplay_pdf.html" style="border-radius: 10px; width: 666px; height: 944px; display: inline-block;" frameborder="0"></iframe>  </div>
+<!--*************************************************************************-->
+<!--
+  <div class="notice06_07">
+    <iframe src="swiper/swiper_autoplay.html" style="border-radius: 10px; width: 1421px; height: 944px; display: inline-block;" frameborder="0"></iframe>
+  </div>
+-->
+  <div class="notice06_07">
+    <iframe src="swiper/swiper_autoplay_mp4.html" style="border-radius: 10px; width: 1421px; height: 944px; display: inline-block;" frameborder="0"></iframe>
+  </div>
+<!--
+  <div class="notice09_10">
+    <iframe src="swiper/swiper_autoplay.html" style="border-radius: 10px; width: 1421px; height: 944px; display: inline-block;" frameborder="0"></iframe>
+  </div>
+  <div class="notice09_10">
+    <iframe src="pdfviewer/viewer-origin.html?file=../content/pdf/User_Manual_360_Signage_Circle_(Radius_350)_wBOIM-E_kr_v002_20220705.pdf" style="border-radius: 10px; width: 1421px; height: 944px; display: inline-block;" frameborder="0"></iframe>
+  </div>
+-->
+<!--*************************************************************************-->
+<!--
+  <div class="notice00_00"><img id="blank" src="" onerror="this.onerror=null; this.src='content/media/background.png'" style="border-radius: 0px; width: 100%; height: 100%; display: inline-block; frameborder="0"">  </div>
+-->
+<!--*************************************************************************-->
+</div>
+</body>
+</html>

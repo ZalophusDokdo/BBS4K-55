@@ -1,0 +1,102 @@
+/*
+   Copyright 2023 Benjamin (BMK: Beommin Kim - 김범민)
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+*/
+body {
+	  color: #000000;
+/*	background-color: #0072C6; /* ... */
+/*	background-color: #CC3300; /* ... */
+/*	background-color: #003300; /* ... */
+/*	background-color: #FFCC00; /* ... */
+/*	background-color: #f5c904; /* ... */
+	  background-color: #000000; /* ... */
+/*	background-color: transparent; /* ... */
+  	margin: 0;
+	  overflow: hidden; /* Hide scrollbars */
+	  overflow-x: hidden; overflow-y: hidden;
+}
+
+.container {  display: grid;
+  grid-template-columns: 0px 666px 666px 666px 666px 666px;
+  grid-template-rows: 1px 944px 944px;
+  gap: 90px 85px;
+  grid-auto-flow: row;
+  width: 3840px;
+  height: 2160px;
+}
+
+.notice01 { grid-area: 2 / 2 / 3 / 3; }
+.notice01-01 { grid-area: 2 / 2 / 3 / 3; }
+.notice01-02 { grid-area: 2 / 2 / 3 / 3; }
+.notice01-03 { grid-area: 2 / 2 / 3 / 3; }
+
+.notice02 { grid-area: 2 / 3 / 3 / 4; }
+.notice02-01 { grid-area: 2 / 3 / 3 / 4; }
+.notice02-02 { grid-area: 2 / 3 / 3 / 4; }
+.notice02-03 { grid-area: 2 / 3 / 3 / 4; }
+
+.notice03 { grid-area: 2 / 4 / 3 / 5; }
+.notice03-01 { grid-area: 2 / 4 / 3 / 5; }
+.notice03-02 { grid-area: 2 / 4 / 3 / 5; }
+.notice03-03 { grid-area: 2 / 4 / 3 / 5; }
+
+.notice04 { grid-area: 2 / 5 / 3 / 6; }
+.notice04-01 { grid-area: 2 / 5 / 3 / 6; }
+.notice04-02 { grid-area: 2 / 5 / 3 / 6; }
+.notice04-03 { grid-area: 2 / 5 / 3 / 6; }
+
+.notice05 { grid-area: 2 / 6 / 3 / 7; }
+.notice05-01 { grid-area: 2 / 6 / 3 / 7; }
+.notice05-02 { grid-area: 2 / 6 / 3 / 7; }
+.notice05-03 { grid-area: 2 / 6 / 3 / 7; }
+
+.notice06 { grid-area: 3 / 2 / 4 / 3; }
+.notice06-01 { grid-area: 3 / 2 / 4 / 3; }
+.notice06-02 { grid-area: 3 / 2 / 4 / 3; }
+.notice06-03 { grid-area: 3 / 2 / 4 / 3; }
+
+.notice07 { grid-area: 3 / 3 / 4 / 4; }
+.notice07-01 { grid-area: 3 / 3 / 4 / 4; }
+.notice07-02 { grid-area: 3 / 3 / 4 / 4; }
+.notice07-03 { grid-area: 3 / 3 / 4 / 4; }
+
+.notice08 { grid-area: 3 / 4 / 4 / 5; }
+.notice08-01 { grid-area: 3 / 4 / 4 / 5; }
+.notice08-02 { grid-area: 3 / 4 / 4 / 5; }
+.notice08-03 { grid-area: 3 / 4 / 4 / 5; }
+
+.notice09 { grid-area: 3 / 5 / 4 / 6; }
+.notice09-01 { grid-area: 3 / 5 / 4 / 6; }
+.notice09-02 { grid-area: 3 / 5 / 4 / 6; }
+.notice09-03 { grid-area: 3 / 5 / 4 / 6; }
+
+.notice10 { grid-area: 3 / 6 / 4 / 7; }
+.notice10-01 { grid-area: 3 / 6 / 4 / 7; }
+.notice10-02 { grid-area: 3 / 6 / 4 / 7; }
+.notice10-03 { grid-area: 3 / 6 / 4 / 7; }
+
+.notice01_02 { grid-area: 2 / 2 / 3 / 4; }
+.notice04_05 { grid-area: 2 / 5 / 3 / 7; }
+.notice06_07 { grid-area: 3 / 2 / 4 / 4; }
+.notice09_10 { grid-area: 3 / 5 / 4 / 6; }
+
+.notice00_00 {
+  grid-area: 1 / 1 / 5 / 8; 
+  width: 3840px; 
+  height: 2160px;
+}
+
+a img {
+	border: none;
+}

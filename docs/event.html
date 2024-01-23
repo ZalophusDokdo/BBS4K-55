@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="refresh" content="300" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<link rel="apple-touch-startup-image" href="startup.png" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link rel="shortcut icon" href="favicon.ico" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="-1" />
+<title>CMS Browser</title>
+<link rel="stylesheet" href="css/bbs4k.css">
+<!--################################################
+     시간에 따라 이미지 변경 (낮과 밤)
+     ################################################-->
+<script type="text/javascript">
+	var hour=function() {
+		var fname="";
+		var today=new Date();
+		var hh=today.getHours();
+                         var mm=today.getMinutes();
+		if(hh >= 10 && hh < 11 && mm < 10)
+		{	bname="content/media/foreground_blacksky.png";
+			bcss="position: absolute;";
+		}
+		else
+		{	location.href='4k.html';	}
+		document.getElementById("blank").src=bname;
+		document.getElementById("blank").style=bcss;
+	}
+</script>
+</head>
+<body onload="hour()">
+<div class="container">
+<!--*************************************************************************-->
+  <div class="notice00-00"><img id="blank" src="" onerror="this.onerror=null; this.src='content/media/background.png'" style="border-radius: 0px; width: 100%; height: 100%; display: inline-block; frameborder="0"">  </div>
+<!--*************************************************************************-->
+</div>
+</body>
+</html>

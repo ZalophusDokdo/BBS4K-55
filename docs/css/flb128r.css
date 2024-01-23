@@ -1,0 +1,211 @@
+/*
+   Copyright 2023 Benjamin (BMK: Beommin Kim - 김범민)
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+*/
+body {
+	color: #000000;
+/*	background-color: #0072C6; /* ... */
+/*	background-color: #CC3300; /* ... */
+/*	background-color: #003300; /* ... */
+/*	background-color: #FFCC00; /* ... */
+	background-color: #000000; /* ... */
+/*	background-color: transparent; /* ... */
+	margin: 0;
+	overflow: hidden; /* Hide scrollbars */
+	overflow-x: hidden; overflow-y: hidden;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 128px 128px 128px 128px 128px 128px 128px 128px 128px 128px 128px 128px 128px 128px 128px 128px;
+  grid-template-rows: 128px 128px 128px 128px 128px 128px 128px 128px;
+  gap: 0px 0px;
+}
+
+.notice00 { grid-area: 1 / 1 / 7 / 17; transform: rotate(0deg); }
+.notice01-01 { grid-area: 1 / 1 / 2 / 2; transform: rotate(120deg); }
+.notice01-02 { grid-area: 1 / 2 / 2 / 3; }
+.notice01-03 { grid-area: 1 / 3 / 2 / 4; }
+.notice01-04 { grid-area: 1 / 4 / 2 / 5; }
+.notice01-05 { grid-area: 1 / 5 / 2 / 6; }
+.notice01-06 { grid-area: 1 / 6 / 2 / 7; }
+.notice01-07 { grid-area: 1 / 7 / 2 / 8; transform: rotate(140deg); }
+.notice01-08 { grid-area: 1 / 8 / 2 / 9; transform: rotate(240deg); }
+.notice01-09 { grid-area: 1 / 9 / 2 / 10; }
+.notice01-10 { grid-area: 1 / 10 / 2 / 11; }
+.notice01-11 { grid-area: 1 / 11 / 2 / 12; }
+.notice01-12 { grid-area: 1 / 12 / 2 / 13; }
+.notice01-13 { grid-area: 1 / 13 / 2 / 14; }
+.notice01-14 { grid-area: 1 / 14 / 2 / 15; }
+.notice01-15 { grid-area: 1 / 15 / 2 / 16; }
+.notice01-16 { grid-area: 1 / 16 / 2 / 17; }
+
+.notice02 { grid-area: 2 / 1 / 7 / 17; }
+.notice02-01 { grid-area: 2 / 1 / 3 / 2; }
+.notice02-02 { grid-area: 2 / 2 / 3 / 3; }
+.notice02-03 { grid-area: 2 / 3 / 3 / 4; }
+.notice02-04 { grid-area: 2 / 4 / 3 / 5; }
+.notice02-05 { grid-area: 2 / 5 / 3 / 6; }
+.notice02-06 { grid-area: 2 / 6 / 3 / 7; }
+.notice02-07 { grid-area: 2 / 7 / 3 / 8; }
+.notice02-08 { grid-area: 2 / 8 / 3 / 9; }
+.notice02-09 { grid-area: 2 / 9 / 3 / 10; }
+.notice02-10 { grid-area: 2 / 10 / 3 / 11; }
+.notice02-11 { grid-area: 2 / 11 / 3 / 12; }
+.notice02-12 { grid-area: 2 / 12 / 3 / 13; }
+.notice02-13 { grid-area: 2 / 13 / 3 / 14; }
+.notice02-14 { grid-area: 2 / 14 / 3 / 15; }
+.notice02-15 { grid-area: 2 / 15 / 3 / 16; }
+.notice02-16 { grid-area: 2 / 16 / 3 / 17; }
+
+.notice03 { grid-area: 3 / 1 / 7 / 17; }
+.notice03-01 { grid-area: 3 / 1 / 4 / 2; }
+.notice03-02 { grid-area: 3 / 2 / 4 / 3; }
+.notice03-03 { grid-area: 3 / 3 / 4 / 4; }
+.notice03-04 { grid-area: 3 / 4 / 4 / 5; }
+.notice03-05 { grid-area: 3 / 5 / 4 / 6; }
+.notice03-06 { grid-area: 3 / 6 / 4 / 7; }
+.notice03-07 { grid-area: 3 / 7 / 4 / 8; }
+.notice03-08 { grid-area: 3 / 8 / 4 / 9; }
+.notice03-09 { grid-area: 3 / 9 / 4 / 10; }
+.notice03-10 { grid-area: 3 / 10 / 4 / 11; }
+.notice03-11 { grid-area: 3 / 11 / 4 / 12; }
+.notice03-12 { grid-area: 3 / 12 / 4 / 13; }
+.notice03-13 { grid-area: 3 / 13 / 4 / 14; }
+.notice03-14 { grid-area: 3 / 14 / 4 / 15; }
+.notice03-15 { grid-area: 3 / 15 / 4 / 16; }
+.notice03-16 { grid-area: 3 / 16 / 4 / 17; }
+
+.notice04 { grid-area: 4 / 1 / 7 / 17; }
+.notice04-01 { grid-area: 4 / 1 / 5 / 2; }
+.notice04-02 { grid-area: 4 / 2 / 5 / 3; }
+.notice04-03 { grid-area: 4 / 3 / 5 / 4; }
+.notice04-04 { grid-area: 4 / 4 / 5 / 5; }
+.notice04-05 { grid-area: 4 / 5 / 5 / 6; }
+.notice04-06 { grid-area: 4 / 6 / 5 / 7; }
+.notice04-07 { grid-area: 4 / 7 / 5 / 8; }
+.notice04-08 { grid-area: 4 / 8 / 5 / 9; }
+.notice04-09 { grid-area: 4 / 9 / 5 / 10; }
+.notice04-10 { grid-area: 4 / 10 / 5 / 11; }
+.notice04-11 { grid-area: 4 / 11 / 5 / 12; }
+.notice04-12 { grid-area: 4 / 12 / 5 / 13; }
+.notice04-13 { grid-area: 4 / 13 / 5 / 14; }
+.notice04-14 { grid-area: 4 / 14 / 5 / 15; }
+.notice04-15 { grid-area: 4 / 15 / 5 / 16; }
+.notice04-16 { grid-area: 4 / 16 / 5 / 17; transform: rotate(135deg); }
+
+.notice05 { grid-area: 5 / 1 / 7 / 17; }
+.notice05-01 { grid-area: 5 / 1 / 6 / 2; }
+.notice05-02 { grid-area: 5 / 2 / 6 / 3; }
+.notice05-03 { grid-area: 5 / 3 / 6 / 4; }
+.notice05-04 { grid-area: 5 / 4 / 6 / 5; }
+.notice05-05 { grid-area: 5 / 5 / 6 / 6; }
+.notice05-06 { grid-area: 5 / 6 / 6 / 7; }
+.notice05-07 { grid-area: 5 / 7 / 6 / 8; }
+.notice05-08 { grid-area: 5 / 8 / 6 / 9; }
+.notice05-09 { grid-area: 5 / 9 / 6 / 10; }
+.notice05-10 { grid-area: 5 / 10 / 6 / 11; }
+.notice05-11 { grid-area: 5 / 11 / 6 / 12; }
+.notice05-12 { grid-area: 5 / 12 / 6 / 13; }
+.notice05-13 { grid-area: 5 / 13 / 6 / 14; }
+.notice05-14 { grid-area: 5 / 14 / 6 / 15; }
+.notice05-15 { grid-area: 5 / 15 / 6 / 16; }
+.notice05-16 { grid-area: 5 / 16 / 6 / 17; }
+
+.notice02 { grid-area: 6 / 1 / 7 / 17; }
+.notice06-01 { grid-area: 6 / 1 / 7 / 2; }
+.notice06-02 { grid-area: 6 / 2 / 7 / 3; }
+.notice06-03 { grid-area: 6 / 3 / 7 / 4; }
+.notice06-04 { grid-area: 6 / 4 / 7 / 5; }
+.notice06-05 { grid-area: 6 / 5 / 7 / 6; }
+.notice06-06 { grid-area: 6 / 6 / 7 / 7; }
+.notice06-07 { grid-area: 6 / 7 / 7 / 8; }
+.notice06-08 { grid-area: 6 / 8 / 7 / 9; }
+.notice06-09 { grid-area: 6 / 9 / 7 / 10; }
+.notice06-10 { grid-area: 6 / 10 / 7 / 11; }
+.notice06-11 { grid-area: 6 / 11 / 7 / 12; }
+.notice06-12 { grid-area: 6 / 12 / 7 / 13; }
+.notice06-13 { grid-area: 6 / 13 / 7 / 14; }
+.notice06-14 { grid-area: 6 / 14 / 7 / 15; }
+.notice06-15 { grid-area: 6 / 15 / 7 / 16; }
+.notice06-16 { grid-area: 6 / 16 / 7 / 17; }
+
+.notice02 { grid-area: 7 / 1 / 7 / 17; }
+.notice07-01 { grid-area: 7 / 1 / 8 / 2; }
+.notice07-02 { grid-area: 7 / 2 / 8 / 3; }
+.notice07-03 { grid-area: 7 / 3 / 8 / 4; }
+.notice07-04 { grid-area: 7 / 4 / 8 / 5; }
+.notice07-05 { grid-area: 7 / 5 / 8 / 6; }
+.notice07-06 { grid-area: 7 / 6 / 8 / 7; }
+.notice07-07 { grid-area: 7 / 7 / 8 / 8; }
+.notice07-08 { grid-area: 7 / 8 / 8 / 9; }
+.notice07-09 { grid-area: 7 / 9 / 8 / 10; }
+.notice07-10 { grid-area: 7 / 10 / 8 / 11; }
+.notice07-11 { grid-area: 7 / 11 / 8 / 12; }
+.notice07-12 { grid-area: 7 / 12 / 8 / 13; }
+.notice07-13 { grid-area: 7 / 13 / 8 / 14; }
+.notice07-14 { grid-area: 7 / 14 / 8 / 15; }
+.notice07-15 { grid-area: 7 / 15 / 8 / 16; }
+.notice07-16 { grid-area: 7 / 16 / 8 / 17; }
+
+.notice02 { grid-area: 8 / 1 / 7 / 17; }
+.notice08-01 { grid-area: 8 / 1 / 9 / 2; }
+.notice08-02 { grid-area: 8 / 2 / 9 / 3; }
+.notice08-03 { grid-area: 8 / 3 / 9 / 4; }
+.notice08-04 { grid-area: 8 / 4 / 9 / 5; }
+.notice08-05 { grid-area: 8 / 5 / 9 / 6; }
+.notice08-06 { grid-area: 8 / 6 / 9 / 7; }
+.notice08-07 { grid-area: 8 / 7 / 9 / 8; }
+.notice08-08 { grid-area: 8 / 8 / 9 / 9; }
+.notice08-09 { grid-area: 8 / 9 / 9 / 10; }
+.notice08-10 { grid-area: 8 / 10 / 9 / 11; }
+.notice08-11 { grid-area: 8 / 11 / 9 / 12; }
+.notice08-12 { grid-area: 8 / 12 / 9 / 13; }
+.notice08-13 { grid-area: 8 / 13 / 9 / 14; }
+.notice08-14 { grid-area: 8 / 14 / 9 / 15; }
+.notice08-15 { grid-area: 8 / 15 / 9 / 16; }
+.notice08-16 { grid-area: 8 / 16 / 9 / 17; }
+
+a img {
+	border: none;
+}
+
+/* 이미지 회전 - S - */
+.img { animation: rotate_image 10s ease-in-out infinite; transform-origin: 0% 100%; }
+@keyframes rotate_image{
+    0% {
+        transform: rotate(360deg);
+    }
+}
+div {
+/*      width: 1920px; /*...*/
+/*      height: 1080px; /*...*/
+/*      background: red; /*...*/
+/*      position: relative; /*...*/
+      /*name duration timing-function delay iteration-count direction fill-mode play-state*/
+      animation: move 25s infinite;
+}
+div:hover {
+/*      background: blue; /*...*/
+      animation-play-state: paused;
+}
+div:active {
+/*      background: yellow; /*...*/
+      animation-play-state: running;
+}
+@keyframes move {
+      from { left: 0px; }
+      to   { left: 0.1px; } /* 80px */
+}
+/* 이미지 회전 - E - */
