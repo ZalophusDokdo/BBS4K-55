@@ -38,7 +38,7 @@ var hour = function() {
 //		if (hh >= 15 && hh < 16 && mm < 10)
 //		{	location.href = './breaktime-15h.html';		}
 
-		if (hh >= 8 && hh <= 17 && mm < 59)
+		if (hh >= 8 && hh <= 17 && mm < 55)
 		{	bname = "image/background_transparency.png";
 			bcss = "position: relative;";
 		}
